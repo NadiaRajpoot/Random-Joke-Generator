@@ -1,0 +1,80 @@
+/* html reset */
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: goldenrod;
+}
+
+/* container to hold components  */
+.container{
+   display: flex;
+}
+
+/* box to diplay joke */
+.card{
+    height: 452px;
+    width: 430px;
+    margin: 60px 50px 60px 90px;
+    background-color: black;
+    border-radius: 23px;
+    padding: 23px;
+}
+
+.heading{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 145px  23px;
+    padding: 0px 0px;
+    font-size: 2.4rem;
+
+}
+.heading span{
+    color:white;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#laughing-emoji{
+  margin: auto;
+  height:150px;
+  width:200px;
+ 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #joke{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    margin: 35px 20px;
+    width:400px;
+   
+  }
+  /* button for generating a joke */
+  #btn{
+    font-family: 'Inter', sans-serif;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+     top: 460px;
+     left:255px;
+    border-radius: 7px;
+    background-color: darkgoldenrod;
+    font-size: 1.2rem;
+
+  }
+
+  #btn:hover{
+    background-color:white;
+  
+  }
